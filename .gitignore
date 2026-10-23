@@ -1,0 +1,12 @@
+node_modules/
+
+# Personal configuration (phone number)
+.env
+
+# Chrome profile holding your WhatsApp Web login session - never commit or share this
+.wa-profile/
+
+# Program logs (phone numbers are masked, but keep them private anyway)
+logs/
+
+npm-debug.log*

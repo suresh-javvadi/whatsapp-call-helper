@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-call-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Opens a friend's WhatsApp Web chat on a schedule so you can start a voice call manually.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/check-config.js",
+    "inspect": "node src/inspect-header.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "nodemailer": "^10.1.7",
+    "playwright-core": "^1.64.1"
+  }
+}
